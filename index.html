@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Firebase - Example</title>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
+  <link type="text/css" rel="stylesheet" href="./style.css?v=3" />
+</head>
+<body>
+  
+  <h1>Forró - Cadastrar Alunos</h1>
+  <form class="cadastro">
+    <input class="input-simple" type="text" name="name" id="name" placeholder="Nome"/>
+    <input class="input-simple" type="email" name="email" id="email" placeholder="Email"/>
+    <input class="input-simple" type="text" name="cordao" id="cordao" placeholder="Cordão"/>
+    <button type="submit" class="btn-submit">Cadastrar</button>
+  </form>
+  <hr/>
+
+  <h2>Alunos</h2>
+  <ul class="alunos">
+    <li class="alunos--list">Não existe alunos cadastrados</li>
+  </ul>
+
+<script src="./firebase-realtime-config.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

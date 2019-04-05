@@ -1,0 +1,41 @@
+.input-simple {
+  width: 100%;
+  border: solid 3px blue;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.alunos {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.alunos--list{
+  
+  border-bottom: solid 1px blue;
+  margin-bottom: 15px;
+}
+
+.aluno-edit{
+  border: solid 1px red;
+  display: block;
+  background: red;
+  color:  white;
+  font-weight: bold;
+}
+
+.aluno-name-input {
+  display: none;
+  border: solid 1px blue;
+  padding:  1em;
+}
+
+.btn-submit {
+  background: blue;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 19px;
+}
